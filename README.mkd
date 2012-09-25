@@ -16,4 +16,4 @@ Reading and writing proofs
 
 **TODO**
 
-[zalta-abstract-objects]: http://www.bogus.com "*Abstract Objects: An Introduction to Axiomatic Metaphysics*"
+[zalta-abstract-objects]: http://bogus "*Abstract Objects: An Introduction to Axiomatic Metaphysics*"
