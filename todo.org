@@ -1,3 +1,19 @@
 * TODO Flesh out the syntax for specifying theories in object theory
 * TODO Design a proof language
 * TODO A rudimentary proof checker
+  A couple ideas for this:
+
+  1. Using the intended semantics of object theory, design a
+     translation that maps inferences (C;P1,P2,…) in object theory
+     (conclusion A is an object theory formula, premises P1, P2, … are
+     all object theory formulas) to first-order theorem proving
+     problems (C*;P1*,P2*,…,A1,A2,…) with conclusion C*, transformed
+     premises P1*, P2*, … and possibly some auxiliary premises A1, A2,
+     … (added to ensure that the intended semantics is expressed),
+     give these problems to an off-the-shelf first-order theorem
+     prover (e.g., Vampire, E), and declare that the object theory
+     inference is valid if the theorem prover can solve the problem
+     within, say, 5 seconds.
+  2. Design an ad hoc theorem prover for object theory.  Maybe we
+     could use some ideas coming from tableau-based theorem proving
+     for quantified modal logics.
