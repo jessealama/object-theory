@@ -42,6 +42,7 @@
 
 (axiom
  :name "Principle 4"
+ :symbolic-name "def-A-equal"
  :formula (forall ((x object)
 		   (y object))
 		  (iff (A-equal x y)
@@ -53,6 +54,7 @@
 
 (axiom
  :name "Principle 5"
+ :symbolic-name "def-equality"
  :formula (forall ((x object)
 		   (y object))
 		  (iff (= x y)
