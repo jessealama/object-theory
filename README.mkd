@@ -1,0 +1,14 @@
+Explore Object Theory
+==========
+
+This collection of tools is intended to facilitate exporation with
+Zalta's [*object theory*][zalta-abstract-objects], an extension of
+quantified modal logic for reasoning with concrete and abstract
+objects.
+
+Getting started
+----------
+
+This package assumes that you have a Common Lisp environment.
+
+[zalta-abstract-objects]: http://www.bogus.com "*Abstract Objects: An Introduction to Axiomatic Metaphysics*"
