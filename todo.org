@@ -1,0 +1,3 @@
+* TODO Flesh out the syntax for specifying theories in object theory
+* TODO Design a proof language
+* TODO A rudimentary proof checker
