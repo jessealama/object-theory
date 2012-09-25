@@ -17,3 +17,4 @@
   2. Design an ad hoc theorem prover for object theory.  Maybe we
      could use some ideas coming from tableau-based theorem proving
      for quantified modal logics.
+* TODO Design a representation for definite descriptions
