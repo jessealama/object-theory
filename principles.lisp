@@ -55,6 +55,6 @@
  :name "Principle 5"
  :formula (forall ((x object)
 		   (y object))
-		  (iff (equal x y)
+		  (iff (= x y)
 		       (or (A-equal x y)
 			   (E-equal x y)))))
