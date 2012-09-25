@@ -1,4 +1,10 @@
-lisp-basenames := packages principles
+lisp-basenames := formulas           \
+                  packages           \
+                  principles         \
+                  tautology          \
+                  terms-and-formulas \
+                  terms
+
 asdfs := object-theory
 lisp-files := $(addsuffix .lisp,$(lisp-basenames)) $(addsuffix .asd,$(asdfs))
 editable-files := $(lisp-files) Makefile README.mkd todo.org
