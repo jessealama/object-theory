@@ -1,4 +1,4 @@
-Explore Object Theory
+Explore Object Theory, Computationally
 ==========
 
 This collection of tools is intended to facilitate exporation with
