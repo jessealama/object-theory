@@ -12,5 +12,6 @@
   :maintainer "Jesse Alama <jesse.alama@gmail.com>"
   :serial t
   :components ((:file "packages")
-	       (:file "formulas")
+	       (:file "terms-and-formulas")
+	       (:file "tautology")
 	       (:file "principles")))
