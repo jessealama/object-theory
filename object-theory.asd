@@ -14,4 +14,5 @@
   :components ((:file "packages")
 	       (:file "terms-and-formulas")
 	       (:file "tautology")
-	       (:file "principles")))
+	       ;; (:file "principles")
+	       ))
