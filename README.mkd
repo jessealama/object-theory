@@ -11,4 +11,9 @@ Getting started
 
 This package assumes that you have a Common Lisp environment.
 
+Reading and writing proofs
+----------
+
+**TODO**
+
 [zalta-abstract-objects]: http://www.bogus.com "*Abstract Objects: An Introduction to Axiomatic Metaphysics*"
