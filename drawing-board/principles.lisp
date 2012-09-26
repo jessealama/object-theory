@@ -13,6 +13,18 @@
 	 (E! y)
 	 (□ (∀ F (⟷ (F x) (F y)))))))
 
+(definition
+    (let ((x object)))
+    (O! x)
+  :means
+  (◇ (E! x)))
+
+(definition
+    (let ((x object)))
+    (A! x)
+  :means
+  (¬ (◇ (E! x))))
+
 (axiom-scheme
  :name "Principle 3"
  (∃ ((?x object))
