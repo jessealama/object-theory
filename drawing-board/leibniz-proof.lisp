@@ -40,7 +40,7 @@
     (the ((x object))
       (and (concept x)
 	   (forall ((F property))
-		   (iff (x F)
+		   (iff [x F]
 			(or (implies G F)
 			    (implies H F)))))))
  (proof
@@ -48,7 +48,7 @@
        (the ((x object))
 	 (and (concept x)
 	      (forall ((F property))
-		      (iff (x F)
+		      (iff [x F]
 			   (or (implies G F)
 			       (implies H F)))))))
   (set cG (concept-of G))
