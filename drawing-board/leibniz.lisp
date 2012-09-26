@@ -16,7 +16,21 @@
 
 (theorem
  :name "Theorem 1"
- (≈ x x))
+ (≈ x x)
+ (proof
+  (:A (A≈ x x)
+      (proof
+       (:B (A! x))
+       (:C (□ (∀ F (⟷ [x F] [x F])))
+	   (proof
+	    (:D (∀ F (⟷ [x F] [x F]))
+		(proof
+		 (let F)
+		 (⟷ [x F] [x F])
+		 (hence thesis)))))
+       ;; this isn't valid
+       (hence thesis :by :B "Definition of A-equal")))
+  (hence thesis :by "Principle 5")))
 
 (theorem
  :name "Theorem 2"
