@@ -46,7 +46,7 @@
 		       (⊂ H F)))))))
  (proof
   (set description
-       (℩ (x object)
+       (℩ x
 	  (∧ (concept x)
 	     (∀ F (⟷ [x F]
 		     (∨ (⊂ G F)
