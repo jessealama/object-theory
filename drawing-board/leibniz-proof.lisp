@@ -14,6 +14,21 @@
   :means
   (A! x)))
 
+(theorem
+ :name "Theorem 1"
+ (≈ x x))
+
+(theorem
+ :name "Theorem 2"
+ (⟶ (≈ x y)
+    (≈ y x)))
+
+(theorem
+ :name "Theorem 3"
+ (⟶ (∧ (≈ x y)
+       (≈ y z))
+    (≈ x z)))
+
 (definition
     (let ((x obect)
 	  (y object)))
@@ -43,7 +58,7 @@
   )
 
 (theorem
- (= (⊕ (concept-of G)
+ (≈ (⊕ (concept-of G)
        (concept-of H))
     (℩ x
        (∧ (concept x)
@@ -62,5 +77,5 @@
   (set sum (⊕ cH cH))
   (:A (∀ P [sum P]))
   (:B (∀ P [sum P]))
-  (:C (A= sum description) :by :A :B :def-A-equal)
+  (:C (A≈ sum description) :by :A :B :def-A-equal)
   (hence thesis :C :def-equality)))
