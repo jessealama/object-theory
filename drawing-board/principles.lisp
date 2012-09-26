@@ -3,6 +3,10 @@
 (reserve F property)
 
 (axiom
+ :name "Rigidity of encoding"
+ (⟶ (◇ [x F]) (□ [x F])))
+
+(axiom
  :name "Principle 1"
  (⟶ (E! x) (□ (∄ F (F x)))))
 
