@@ -8,9 +8,8 @@
   :means
   (and (concept it)
        (forall ((F property))
-	       (iff (z F)
-		    (or (x F)
-			(z F)))))
+	       (iff [z F] (or [x F]
+			      [z F]))))
   :existence
   ;; missing proof
   :uniqueness
@@ -23,7 +22,7 @@
   :means
   (and (concept it)
        (forall ((F property))
-	       (iff (x F)
+	       (iff [x F]
 		    (implies G F))))
   :existence
   ;; missing proof
@@ -54,13 +53,7 @@
   (set cG (concept-of G))
   (set cH (concept-of H))
   (set sum (real-sum cH cH))
-  (:A (forall ((P property))
-	      (sum P))
-      ;; some subproof
-      )
-  (:B (forall ((P property))
-	      (sum P))
-      ;; some subproof
-      )
-  (C: (A-equal sum description) :A :B :def-A-equal)
+  (:A (forall ((P property)) [sum P]))
+  (:B (forall ((P property)) [sum P]))
+  (:C (A-equal sum description) :by :A :B :def-A-equal)
   (hence thesis :C :def-equality)))
