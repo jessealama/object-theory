@@ -9,6 +9,12 @@
 (reserve P property)
 
 (definition
+  (let ((x object))
+  (concept x)
+  :means
+  (A! x)))
+
+(definition
     (let ((x obect)
 	  (y object)))
     (⊕ x y)
