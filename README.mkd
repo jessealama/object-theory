@@ -14,4 +14,4 @@ This package assumes that you have a Common Lisp environment.
 Reading and writing proofs
 ----------
 
-[zalta-abstract-objects]: http://bogus "*Abstract Objects: An Introduction to Axiomatic Metaphysics*"
+[zalta-abstract-objects]: http://mally.stanford.edu/theory.html "The Theory of Abstract Objects"
