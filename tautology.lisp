@@ -2,6 +2,13 @@
 
 (in-package :object-theory)
 
+;;; A simple truth-table tableau-style reduction procedure.  Find the
+;;; leftmost atom of the formula, plug in the contstant true for it,
+;;; and try reducing the formula using various reduction rules.  Then
+;;; do the same with falsum.  If in both cases we can reduce the
+;;; formula to constant true, then it is a tautology.  Otherwise it is
+;;; not a tautology.
+
 (defgeneric leftmost-atom (formula))
 
 (defmethod leftmost-atom ((formula (eql top)))
